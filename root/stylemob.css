@@ -67,6 +67,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    border-bottom: 3px solid black;
 }
 
 div.logo {
@@ -79,4 +80,46 @@ div.logo {
 
 div.ti-head {
     margin: 20px 0;
+}
+
+
+/*  */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.in-text {
+    width: 80%;
+    margin: 15px;
+    padding: 3px;
+    border: 3px solid rgb(29, 36, 51);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 15px 0.5px black;
+}
+
+div.in-text h2,
+div.in-text p,
+div.in-text img {
+    margin: 5px 0;
+}
+
+div.image-loc {
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(29, 36, 51);
+    border-radius: 40%;
+    overflow: hidden;
+}
+
+div.image-loc img {
+    height: 350px;
+    margin-top: -10px;
 }
